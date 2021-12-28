@@ -1,4 +1,4 @@
-'''import datetime
+import datetime
 now = datetime.datetime.now()
 print ("Current date and time : ")
 print (now.strftime("%Y-%m-%d %H:%M:%S"))
@@ -8,7 +8,7 @@ print (now.strftime("%Y-%m-%d %H:%M:%S"))
 from math import pi
 
 r=int(input("enter the radius of a circle: "))
-print("the area of the circle with radium", r, "is:", pi*r**2)
+print("the area of the circle with radius", r, "is:", pi*r**2)
 
 
 a= "hello"
@@ -226,11 +226,9 @@ y2 = float(input('The value of y (the first endpoint) '))
 
 x_m_point = (x1 + x2)/2
 y_m_point = (y1 + y2)/2
-print()
-print("The midpoint of line is :")
-print( "The midpoint's x value is: ",x_m_point)
-print( "The midpoint's y value is: ",y_m_point)
-print()
+
+print( "The midpoint of the line is: ",(x_m_point,y_m_point))
+
 
 
 list_of_colors = ['Red', 'White', 'Black']  
@@ -350,7 +348,7 @@ if pin==1234:
         print("avaialable balance is:", bal)
 else:
     print("Invalid pin")
-'''
+
 
 # class person:
 #     pass
@@ -381,7 +379,7 @@ E2.experiance = 2
 print(E1.name, E2.experiance)
 
 class School:
-    name = "poona college"
+    name = "poona college" # class variable
     grade = "A grade"
 S= School()
 
