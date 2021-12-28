@@ -1,4 +1,4 @@
-import datetime
+'''import datetime
 now = datetime.datetime.now()
 print ("Current date and time : ")
 print (now.strftime("%Y-%m-%d %H:%M:%S"))
@@ -350,4 +350,42 @@ if pin==1234:
         print("avaialable balance is:", bal)
 else:
     print("Invalid pin")
+'''
+
+# class person:
+#     pass
+# p1 = person()
+# p2 = person()
+
+# p1.name = "wasim" # instance variable
+# p1.nickname = "hero" 
+# p2.name = "almas"
+# p2.nickname = "gulab jamun"
+
+# print(p1.name, "loves", p2.name)
+# print(p1.name, "loves to call", p2.name, "as his", p2.nickname)
+# print(p2.name, "loves to call", p1.name, "as her", p1.nickname)
+
+
+
+
+class Employee:
+    pass
+E1 = Employee()
+E2 = Employee()
+
+E1.name = "wasim"  # instance variable
+E1.age = 25
+E2.experiance = 2
+
+print(E1.name, E2.experiance)
+
+class School:
+    name = "poona college"
+    grade = "A grade"
+S= School()
+
+print(S.grade)
+
+
 
